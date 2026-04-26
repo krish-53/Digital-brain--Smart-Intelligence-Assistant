@@ -21,3 +21,22 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+
+# Maven
+apache-maven-3.9.6/
+
+# VS Code
+.vscode/

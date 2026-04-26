@@ -174,25 +174,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                         </div>
                         <div id="ideas-list">
                             <div style="margin-bottom:1rem; background:rgba(0,0,0,0.2); border-radius:12px; padding:1.5rem; border-left:3px solid var(--accent-blue)">
-                                <h4>Phase 4 Optimization</h4>
-                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Streamline the Digital Brain startup speed with C++ integrations.</p>
-                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">code</span>
+                                <h4>Backend Setup</h4>
+                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Built REST API using FastAPI and managed local DB with SQLite.</p>
+                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">python</span>
                             </div>
                             <div style="margin-bottom:1rem; background:rgba(0,0,0,0.2); border-radius:12px; padding:1.5rem; border-left:3px solid var(--accent-purple)">
-                                <h4>Project Alpha</h4>
-                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">A revolutionary new app idea focusing on personal productivity.</p>
-                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">app</span>
+                                <h4>Glassmorphism UI</h4>
+                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Custom HTML/JS frontend focusing heavily on modern aesthetic design.</p>
+                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">frontend</span>
                             </div>
                             <div style="margin-bottom:1rem; background:rgba(0,0,0,0.2); border-radius:12px; padding:1.5rem; border-left:3px solid #10b981">
-                                <h4>Machine Learning Sync</h4>
-                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Connect local behavior to local ML models (Llama.cpp) without cloud.</p>
-                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">ai</span>
-                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem; margin-left:5px">privacy</span>
+                                <h4>Desktop Wrapping</h4>
+                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Wrapped web UI inside an Electron shell that auto-spawns Python processes.</p>
+                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">electron</span>
                             </div>
                             <div style="margin-bottom:1rem; background:rgba(0,0,0,0.2); border-radius:12px; padding:1.5rem; border-left:3px solid #f59e0b">
-                                <h4>Content Strategy</h4>
-                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Use React + Vite for landing pages, and pure CSS for fast loads.</p>
-                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">design</span>
+                                <h4>Version Control</h4>
+                                <p style="font-size:0.85rem; color:var(--text-secondary); margin:0.5rem 0;">Pushed to GitHub with strict .gitignore configurations.</p>
+                                <span style="background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:4px; font-size:0.75rem;">git</span>
                             </div>
                         </div>
                     </div>
@@ -200,9 +199,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="glass-panel" style="flex: 2; padding: 1.5rem; display:flex; flex-direction:column; min-height:500px; position:relative; overflow:hidden;">
                         <!-- Interactive Graph Visual System using SVG -->
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; z-index:10;">
-                            <h3>Knowledge Graph</h3>
+                            <h3>Architecture Graph</h3>
                             <div style="background:var(--bg-dark); padding:5px 10px; border-radius: 8px; font-size: 0.8rem; border:1px solid var(--glass-border); color:var(--text-secondary);">
-                                <span style="color:#10b981">●</span> 4 Nodes Active
+                                <span style="color:#10b981">●</span> 4 Nodes Connected
                             </div>
                         </div>
                         <div style="flex:1; background-image: radial-gradient(circle, rgba(255,255,255,0.05) 2px, transparent 2px); background-size: 30px 30px; border-radius:12px; position:relative; overflow:hidden; border:1px solid rgba(255,255,255,0.05); box-shadow: inset 0 0 50px rgba(0,0,0,0.5);">
@@ -214,24 +213,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                             </svg>
                             
                             <!-- Graph Nodes (Positioned absolutely over SVG) -->
-                            <div style="position:absolute; left:25%; top:35%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Phase 4 Optimization')">
+                            <div style="position:absolute; left:25%; top:35%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Backend Database')">
                                 <div style="width:30px; height:30px; background:var(--accent-blue); border-radius:50%; box-shadow:0 0 20px var(--accent-blue); border:3px solid #fff; transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"></div>
-                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Optimization</span>
+                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Backend setup</span>
                             </div>
 
-                            <div style="position:absolute; left:55%; top:50%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: ML Sync Hub')">
+                            <div style="position:absolute; left:55%; top:50%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Electron Desktop')">
                                 <div style="width:40px; height:40px; background:var(--accent-purple); border-radius:50%; box-shadow:0 0 25px var(--accent-purple); border:3px solid #fff; transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"></div>
-                                <span style="margin-top:8px; font-size:0.8rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">ML Sync</span>
+                                <span style="margin-top:8px; font-size:0.8rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Desktop Wrapped</span>
                             </div>
 
-                            <div style="position:absolute; left:75%; top:35%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Project Alpha')">
+                            <div style="position:absolute; left:75%; top:35%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Glassmorphism UI')">
                                 <div style="width:25px; height:25px; background:#10b981; border-radius:50%; box-shadow:0 0 15px #10b981; border:2px solid #fff; transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"></div>
-                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Project Alpha</span>
+                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Custom UI</span>
                             </div>
 
-                            <div style="position:absolute; left:45%; top:75%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Content Strategy')">
+                            <div style="position:absolute; left:45%; top:75%; transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; cursor:pointer;" onclick="mockAppActions.toast('Node: Version Control')">
                                 <div style="width:25px; height:25px; background:#f59e0b; border-radius:50%; box-shadow:0 0 15px #f59e0b; border:2px solid #fff; transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"></div>
-                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">Content</span>
+                                <span style="margin-top:8px; font-size:0.75rem; font-weight:600; background:rgba(0,0,0,0.6); padding:4px 8px; border-radius:4px;">GitHub Push</span>
                             </div>
                         </div>
                     </div>
